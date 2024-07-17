@@ -20,7 +20,6 @@ This project is a simple Flask API for managing users, which can be deployed on 
 
 ```sh
 git clone https://github.com/TracyK10/postgres-database.git
-cd user-api
 ```
 
 ### Install Dependencies
