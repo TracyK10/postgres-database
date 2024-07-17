@@ -15,6 +15,12 @@ db.init_app(app)
 
 api = Api(app)
 
+class UserView(Resource):
+    def get(self):
+        return '<h1>Welcome to my user app</h1>'
+    
+api.add_resource(UserView, '/')
+
 class UserResource(Resource):
     def get(self):
         users = [user.to_dict() for user in User.query.all()]
