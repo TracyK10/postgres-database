@@ -19,7 +19,7 @@ This project is a simple Flask API for managing users, which can be deployed on 
 ### Clone the Repository
 
 ```sh
-git clone https://github.com/TracyK10/user-api.git
+git clone https://github.com/TracyK10/postgres-database.git
 cd user-api
 ```
 
@@ -36,7 +36,6 @@ Set the environment variables in your terminal:
 ```sh
 export DATABASE_URL=your_database_url_here
 export FLASK_APP=app.py
-export FLASK_ENV=development
 ```
 
 ### Initialize the Database
