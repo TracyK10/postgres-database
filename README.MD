@@ -88,7 +88,7 @@ The application will be available at `http://127.0.0.1:5000/`.
 
 2. **Configure the Web Service:**
     - **Build Command:** `pip install -r requirements.txt`
-    - **Start Command:** `flask run --host=0.0.0.0`
+    - **Start Command:** `gunicorn app:app`
     - **Environment:** Python 3.10
 
 3. **Add Environment Variables:**
